@@ -1,0 +1,16 @@
+public class j21_Primitivo_vs_Objetos {
+    public static void main(String[] args) {
+        int asientosPrimitiva = 40;
+        System.out.println("--- Tipo de dato primitivo ---");
+        System.out.println("Asientos: " + asientosPrimitiva);
+        Integer asientosObjeto = 40;
+        System.out.println("\n--- OBJETO (Integer) ---");
+        System.out.println("Asientos: " + asientosObjeto);
+        String texto = asientosObjeto.toString();
+        System.out.println("Convertido a texto: " + texto);
+        System.out.println("Longitud del texto: " + texto.length() + " caracteres");
+        int comparacion = asientosObjeto.compareTo(30);
+        System.out.println("¿Es menor que 30?: " + (comparacion < 0));
+        System.out.println("Valor maximo de un entero en Java: " + Integer.MAX_VALUE);
+    }
+}
